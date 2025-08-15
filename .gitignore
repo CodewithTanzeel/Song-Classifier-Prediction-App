@@ -1,0 +1,9 @@
+# environments & caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# data & models (keep local)
+data/*.csv
+models/*.pkl
+models/*.json
