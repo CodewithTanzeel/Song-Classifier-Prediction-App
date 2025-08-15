@@ -45,7 +45,7 @@ def main():
     if not DATA_CSV.exists():
         raise FileNotFoundError(
             f"Dataset not found at {DATA_CSV}. "
-            "Download Kaggle CSV and place it there as 'spotify_tracks.csv'."
+            "Download Kaggle CSV and place it there as 'dataset.csv'."
         )
 
     df, FEATURES = load_and_prepare_data(str(DATA_CSV))
